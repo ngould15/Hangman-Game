@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hangman</title>
+    <title>Nickelodeon Hangman</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Gloria+Hallelujah|Permanent+Marker|Shadows+Into+Light" rel="stylesheet">
 </head>
+
 <body>
-    <script src="game.js"></script>
+    <div class="header">
+        <h1>Hangman!</h1>
+        <img src="assets/images/NickLogo.png" id="NickelodeonLogo" alt="Nickelodeon Logo">
+    </div>
+
+    <div class="container">
+        <div id="game"></div>
+        <h2>Guess any letter to begin!</h2>
+        <h3>Word to Guess</h3>
+        <!--Holds the Words to Guess (blanks and guessed word)-->
+        <h3 id="wordblanks">_ _ _ _ _ _ _ _</h3>
+        <!-- This h3 section called wordblanks is what we'll be replacing with letters as the user guesses.-->
+        <p>Wrong Guesses: </p>
+        <!-- Holds the list of Wrong Guesses-->
+        <p id="wrongGuesses"></p>
+        <!-- This span section called wrongGuesses is where we store the wrong letter guesses.-->
+        <p>Guesses Left:</p>
+        <!-- Holds the Number of Wrong Guesses -->
+        <p id="guessesLeft">9</p>
+        <!--This span called guessesLeft is where we will count the number of guesses left. -->
+        <p>Wins:</p>
+        <!-- Holds the number of Wins. -->
+        <p id="winCounter">0</p>
+        <!--This span will called winCounter is where we count the numbers of wins. -->
+        <p>Losses:</p>
+        <!-- Holds the number of losses. -->
+        <p id="lossCounter">0</p>
+        <!-- lossCounter is where we count the number of losses. -->
+        <iframe id="nickTheme" width="360" height="215" src="https://www.youtube.com/embed/KsLa_HuoWGs" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+        <img src="assets/images/characters.jpg" id="Characters" alt="Nickelodeon Characters">
+    </div>
+
+
+    <!--JavaScript link-->
+    <script src="./assets/javascript/game.js"></script>
+
 </body>
+
 </html>

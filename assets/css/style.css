@@ -1,0 +1,83 @@
+body {
+    background-image: url("../images/wormz.png");
+}
+
+.header {
+    height:150px;
+    width: 100%;
+    background-image: url("../images/geometry.png");
+    border:2px solid #cccccc;
+    margin:0px auto;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+.container{
+    width: 750px;
+    height: 1000px;
+    background: #ffffff;
+    border:2px solid #cccccc;
+    margin-left: 23%;
+    margin-top: 40px;
+    margin-bottom: 10%;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 110px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#NickelodeonLogo {
+    width: 325px;
+    height: 250px;
+    float: left;
+    margin-top: -110px;
+    margin-left: 225px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 38px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#wrongGuesses, #guessesLeft, #winCounter, #lossCounter {
+    font-size: 18px;
+    line-height: 40%;
+}
+
+#Characters {
+    width: 400px;
+    height: 350px;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+#nickTheme {
+float: left;
+margin-top: -475px;
+margin-left: 350px;
+}
